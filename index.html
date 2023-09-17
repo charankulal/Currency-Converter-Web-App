@@ -36,14 +36,14 @@
                 <label for="exampleInputPassword1" class="form-label">Select a Currency</label>
                 <select class="form-select" aria-label="Default select example">
                     <option selected>Select a Base Currency</option>
-                    <option value="inr">INR</option>
-                    <option value="usd">USD</option>
-                    <option value="usd">EUR</option>
+                    <option value="INR">INR</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
                 </select>
             </div>
             <div class="m-3">
                 <label for="exampleInputPassword1" class="form-label">Choose Quantity</label>
-                <input type="number" class="form-control" id="exampleInputPassword1">
+                <input type="number" class="form-control" name="quantity" id="exampleInputPassword1">
             </div>
 
             <div class="m-3 text-center">
@@ -52,19 +52,19 @@
 
 
         </form>
-        <div class="output m-5">
+        <div class="output">
             <h2 class="text-center">Here is the converted values</h2>
             <table class="table table-bordered border-dark m-3">
                 <thead>
                     <tr>
 
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
+                        <th scope="col">Currency</th>
+                        <th scope="col">Value</th>
+                        <th scope="col">Value X Quantity</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <!-- <tr>
                         <td>Mark</td>
                         <td>Otto</td>
                         <td>@mdo</td>
@@ -78,7 +78,7 @@
                         <td>Jacob</td>
                         <td>Thornton</td>
                         <td>@fat</td>
-                    </tr>
+                    </tr> -->
                 </tbody>
             </table>
         </div>

@@ -1,20 +1,19 @@
-body{
-    background-color: antiquewhite;
+body {
+  background-color: antiquewhite;
 }
-.container{
-    min-height: 60vh;
-    margin: 10%;
-    margin-top: 5%;
-    
-    
+.container {
+  min-height: 60vh;
+  margin: 10%;
+  margin-top: 5%;
 }
 
-.navbar{
-    font-size: 20px;
-    /* font-weight: bold; */
- 
+.navbar {
+  font-size: 20px;
+  /* font-weight: bold; */
 }
-.navbar-brand{
-    font-weight: 700;
-    
+.navbar-brand {
+  font-weight: 700;
+}
+.output{
+    display: none;
 }
