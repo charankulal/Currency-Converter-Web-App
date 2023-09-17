@@ -30,7 +30,7 @@
         </div>
     </nav>
     <div class="container w-50">
-<h2 class="text-lead text-center text-dark">Currency Converter</h2>
+        <h2 class="text-lead text-center text-dark">Currency Converter</h2>
         <form action="" method="get">
             <div class="m-3">
                 <label for="exampleInputPassword1" class="form-label">Select a Currency</label>
@@ -39,19 +39,49 @@
                     <option value="inr">INR</option>
                     <option value="usd">USD</option>
                     <option value="usd">EUR</option>
-                  </select>
+                </select>
             </div>
             <div class="m-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="number" class="form-control" id="exampleInputPassword1">
+                <label for="exampleInputPassword1" class="form-label">Choose Quantity</label>
+                <input type="number" class="form-control" id="exampleInputPassword1">
             </div>
 
             <div class="m-3 text-center">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" class="btn btn-success">Convert</button>
             </div>
-            
-            
-          </form>
+
+
+        </form>
+        <div class="output m-5">
+            <h2 class="text-center">Converted Currency Table</h2>
+            <table class="table table-bordered border-dark m-3">
+                <thead>
+                    <tr>
+
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
     </div>
     <footer class="footer text-center bg-secondary p-2 text-lead">
