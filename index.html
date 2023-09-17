@@ -17,19 +17,41 @@
             <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link active m-1" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active m-1" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active m-1" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link active m-1" aria-current="page" href="/">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active m-1" aria-current="page" href="#">About Us</a>
+                        <a class="nav-link active m-1" aria-current="page" href="/">About Us</a>
                     </li>
 
             </div>
         </div>
     </nav>
-    <div class="container">
+    <div class="container w-50">
+<h2 class="text-lead text-center text-dark">Currency Converter</h2>
+        <form action="" method="get">
+            <div class="m-3">
+                <label for="exampleInputPassword1" class="form-label">Select a Currency</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select a Base Currency</option>
+                    <option value="inr">INR</option>
+                    <option value="usd">USD</option>
+                    <option value="usd">EUR</option>
+                  </select>
+            </div>
+            <div class="m-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="number" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="m-3 text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            
+            
+          </form>
 
     </div>
     <footer class="footer text-center bg-secondary p-2 text-lead">
